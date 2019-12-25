@@ -1,0 +1,14 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^4.1"
+    },
+    "autoload": {
+        "classmap": [
+            "controllers/userController/UserController.php",
+            "api/Api.php",
+            "php/connection.php",
+            "Daos/user.php",
+            "Daos/UserDao.php"
+        ]
+    }
+}
